@@ -1,0 +1,20 @@
+There's no Jupyter notebook calculation for the atmospheric technosignature (NO2) calculation,
+because it was just done in Planetary Spectrum Generator by Ravi. In his simulation, he found that 
+SNR = 3.5 for d = 5pc and t = 1200h.  So, with known scalings:
+
+SNR = 3.5 (5 pc / d) sqrt( T / 1200h)
+
+For SNR = 5 and T= 900h...
+
+d = 3pc
+
+[Sofia needs to check this on Monday]
+
+
+The original question is:
+
+At what distance would a 6m LUVEx-style mission be able to detect a cloud-free Earth-like planet around a Sun-like star with 113 ppb concentration of NO2 (ichnoscale=1) with 900 hours of observing time, to an SNR of 5, based on the features from 0.2-0.7 um?
+
+113 ppb concentration = the average NO2 concentration over the US in 1980 (2-3X higher than today)
+900 hours observing time = the CANDELS survey, longest single astronomical survey on Hubble
+0.2-0.7 um = features observable by LUVEx
